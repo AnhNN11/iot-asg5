@@ -1,0 +1,15 @@
+ERROR: null root node returned by UiTestAutomationBridge.
+PASS: Realtime temperature and humidity
+PASS: Increase threshold writes to Firebase
+PASS: Decrease threshold writes to Firebase
+PASS: Threshold exceeded: Toast and MediaPlayer started
+PASS: Repeated high snapshot does not repeat alert
+PASS: Mode OFF persisted and pauses alerts
+PASS: Mode ON rearms warning while high
+PASS: Equality does not trigger warning
+PASS: Invalid humidity disables controls without crashing
+PASS: Upper threshold bound disables increase
+PASS: Lower threshold bound disables decrease
+PASS: Locked database reports Permission denied
+ERROR: null root node returned by UiTestAutomationBridge.
+PASS: Activity restart restores data and listeners

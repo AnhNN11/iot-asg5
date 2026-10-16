@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_app_id" translatable="false">1:395007766022:android:c98127f7abf93b30da1d87</string>
+    <string name="project_id" translatable="false">lab-2-connected-monitoring-app</string>
+    <string name="gcm_defaultSenderId" translatable="false">395007766022</string>
+    <string name="database_url" translatable="false">https://lab-2-connected-monitoring-app-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</resources>

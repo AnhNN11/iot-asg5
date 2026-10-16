@@ -1,0 +1,5 @@
+Cloud read check (no authentication): Response status code does not indicate success: 401 (Unauthorized).
+
+{
+  "error": "Permission denied"
+}

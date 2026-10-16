@@ -1,0 +1,67 @@
+[
+  {
+    "test": "Realtime temperature and humidity",
+    "result": "PASS",
+    "evidence": "01-normal.png"
+  },
+  {
+    "test": "Increase threshold writes to Firebase",
+    "result": "PASS",
+    "evidence": "02-threshold-increased.png"
+  },
+  {
+    "test": "Decrease threshold writes to Firebase",
+    "result": "PASS",
+    "evidence": "logcat.txt"
+  },
+  {
+    "test": "Threshold exceeded: Toast and MediaPlayer started",
+    "result": "PASS",
+    "evidence": "03-high-toast.png; logcat.txt"
+  },
+  {
+    "test": "Repeated high snapshot does not repeat alert",
+    "result": "PASS",
+    "evidence": "logcat.txt"
+  },
+  {
+    "test": "Mode OFF persisted and pauses alerts",
+    "result": "PASS",
+    "evidence": "05-mode-off.png"
+  },
+  {
+    "test": "Mode ON rearms warning while high",
+    "result": "PASS",
+    "evidence": "logcat.txt"
+  },
+  {
+    "test": "Equality does not trigger warning",
+    "result": "PASS",
+    "evidence": "06-equal-threshold.png"
+  },
+  {
+    "test": "Invalid humidity disables controls without crashing",
+    "result": "PASS",
+    "evidence": "07-invalid-humidity.png"
+  },
+  {
+    "test": "Upper threshold bound disables increase",
+    "result": "PASS",
+    "evidence": "UI hierarchy assertion"
+  },
+  {
+    "test": "Lower threshold bound disables decrease",
+    "result": "PASS",
+    "evidence": "UI hierarchy assertion"
+  },
+  {
+    "test": "Locked database reports Permission denied",
+    "result": "PASS",
+    "evidence": "08-permission-denied.png"
+  },
+  {
+    "test": "Activity restart restores data and listeners",
+    "result": "PASS",
+    "evidence": "09-final-normal.png"
+  }
+]

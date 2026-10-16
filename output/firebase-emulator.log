@@ -1,0 +1,12 @@
+09:26:37.333 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+09:26:40.379 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+09:26:54.799 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - demo-exercise3-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 2150ms, init: 0ms
+09:26:56.207 [NamespaceSystem-blocking-namespace-operation-dispatcher-7] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:37:05.472 [NamespaceSystem-blocking-namespace-operation-dispatcher-16] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:37:56.736 [NamespaceSystem-blocking-namespace-operation-dispatcher-20] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:39:54.060 [NamespaceSystem-blocking-namespace-operation-dispatcher-23] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:43:46.158 [NamespaceSystem-blocking-namespace-operation-dispatcher-28] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:44:58.447 [NamespaceSystem-blocking-namespace-operation-dispatcher-48] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:46:06.324 [NamespaceSystem-blocking-namespace-operation-dispatcher-50] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:47:09.912 [NamespaceSystem-blocking-namespace-operation-dispatcher-67] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active
+09:47:13.257 [NamespaceSystem-blocking-namespace-operation-dispatcher-68] INFO com.firebase.core.namespace.StateManager - Namespace demo-exercise3-default-rtdb status Active to Active

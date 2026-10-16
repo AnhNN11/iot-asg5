@@ -1,0 +1,31 @@
+--------- beginning of main
+10-16 09:46:08.726  9718  9718 I FirebaseMonitor: TEST ENVIRONMENT: Firebase Emulator 127.0.0.1:9000 via adb reverse, demo-exercise3
+10-16 09:46:09.859  9718  9718 D FirebaseMonitor: Connected=false
+10-16 09:46:09.883  9718  9718 D FirebaseMonitor: Connected=true
+10-16 09:46:09.915  9718  9718 D FirebaseMonitor: Temperature=27.5, Humidity=65.0, Threshold=30.0, Mode=true, Timestamp=1792118766327
+10-16 09:46:18.988  9718  9718 D FirebaseMonitor: Temperature=27.5, Humidity=65.0, Threshold=31.0, Mode=true, Timestamp=1792118766327
+10-16 09:46:18.991  9718  9718 D FirebaseMonitor: Threshold committed: 31
+10-16 09:46:24.751  9718  9718 D FirebaseMonitor: Temperature=27.5, Humidity=65.0, Threshold=30.0, Mode=true, Timestamp=1792118766327
+10-16 09:46:24.764  9718  9718 D FirebaseMonitor: Threshold committed: 30
+10-16 09:46:27.323  9718  9718 D FirebaseMonitor: Temperature=36.5, Humidity=72.0, Threshold=30.0, Mode=true, Timestamp=1792118787476
+10-16 09:46:27.330  9718  9718 W FirebaseMonitor: ALERT: Warning: Temperature exceeds threshold!
+10-16 09:46:27.502  9718  9718 D FirebaseMonitor: Notification sound started
+10-16 09:46:34.153  9718  9718 D FirebaseMonitor: Temperature=36.5, Humidity=73.0, Threshold=30.0, Mode=true, Timestamp=1792118787476
+10-16 09:46:39.617  9718  9718 D FirebaseMonitor: Temperature=36.5, Humidity=73.0, Threshold=30.0, Mode=false, Timestamp=1792118787476
+10-16 09:46:39.641  9718  9718 D FirebaseMonitor: Mode committed: false
+10-16 09:46:45.251  9718  9718 D FirebaseMonitor: Temperature=36.5, Humidity=73.0, Threshold=30.0, Mode=true, Timestamp=1792118787476
+10-16 09:46:45.271  9718  9718 W FirebaseMonitor: ALERT: Warning: Temperature exceeds threshold!
+10-16 09:46:45.487  9718  9718 D FirebaseMonitor: Notification sound started
+10-16 09:46:45.569  9718  9718 D FirebaseMonitor: Mode committed: true
+10-16 09:46:48.085  9718  9718 D FirebaseMonitor: Temperature=30.0, Humidity=73.0, Threshold=30.0, Mode=true, Timestamp=1792118787476
+10-16 09:46:51.236  9718  9718 D FirebaseMonitor: Temperature=30.0, Humidity=null, Threshold=30.0, Mode=true, Timestamp=1792118787476
+10-16 09:46:56.696  9718  9718 D FirebaseMonitor: Temperature=30.0, Humidity=65.0, Threshold=100.0, Mode=true, Timestamp=1792118787476
+10-16 09:47:01.954  9718  9718 D FirebaseMonitor: Temperature=30.0, Humidity=65.0, Threshold=-50.0, Mode=true, Timestamp=1792118787476
+10-16 09:47:01.966  9718  9718 W FirebaseMonitor: ALERT: Warning: Temperature exceeds threshold!
+10-16 09:47:02.124  9718  9718 D FirebaseMonitor: Notification sound started
+10-16 09:47:07.153  9718  9718 D FirebaseMonitor: Temperature=27.5, Humidity=65.0, Threshold=30.0, Mode=true, Timestamp=1792118766327
+10-16 09:47:09.729  9718  9718 E FirebaseMonitor: Read Config/Latest: This client does not have permission to perform this operation
+10-16 09:47:15.661 10220 10220 I FirebaseMonitor: TEST ENVIRONMENT: Firebase Emulator 127.0.0.1:9000 via adb reverse, demo-exercise3
+10-16 09:47:16.633 10220 10220 D FirebaseMonitor: Connected=false
+10-16 09:47:16.646 10220 10220 D FirebaseMonitor: Connected=true
+10-16 09:47:16.688 10220 10220 D FirebaseMonitor: Temperature=27.5, Humidity=65.0, Threshold=30.0, Mode=true, Timestamp=1792118766327

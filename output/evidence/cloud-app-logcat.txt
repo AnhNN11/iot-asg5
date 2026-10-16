@@ -1,0 +1,4 @@
+--------- beginning of main
+10-16 09:49:35.927 10307 10307 D FirebaseMonitor: Connected=false
+10-16 09:49:35.976 10307 10307 D FirebaseMonitor: Connected=true
+10-16 09:49:35.986 10307 10307 E FirebaseMonitor: Read Config/Latest: Permission denied

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Lab2FirebaseConnectedMonitoringApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#12695F</item>
+        <item name="colorSecondary">#12695F</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F2F6F5</item>
+        <item name="android:navigationBarColor">#F2F6F5</item>
+    </style>
+</resources>

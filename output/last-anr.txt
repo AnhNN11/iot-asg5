@@ -1,0 +1,189 @@
+ACTIVITY MANAGER LAST ANR (dumpsys activity lastanr)
+  ANR time: Oct 16, 2026 9:38:25 AM
+  Reason: Input dispatching timed out (22b7004 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity is not responding. Waited 5005ms for FocusEvent(hasFocus=false)).
+
+  * TaskFragment{e609a6 mode=multi-window organizerUid=10196 organizerProc=com.google.android.apps.nexuslauncher}
+    mForceHiddenFlags=4
+    fullscreenRequestAllowMode=NONE
+  * Task{c43f38c #2 type=home I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 rootTaskId=1 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+    fullscreenRequestAllowMode=NONE
+    mLastPausedActivity: ActivityRecord{201605311 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t2}
+    isSleeping=false
+  * Task{76b8ad5 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    fullscreenRequestAllowMode=NONE
+
+  mLastHomeActivityStartResult=0
+  mLastHomeActivityStartRecord:
+    packageName=com.google.android.apps.nexuslauncher processName=com.google.android.apps.nexuslauncher
+    launchedFromUid=0 launchedFromPackage=null launchedFromFeature=null userId=0
+    app=ProcessRecord{adf953 2145:com.google.android.apps.nexuslauncher/u0a196}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+    rootOfTask=true task=Task{c43f38c #2 type=home I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity}
+    taskAffinity=null
+    mActivityComponent=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+    baseDir=/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
+    dataDir=/data/user/0/com.google.android.apps.nexuslauncher
+    stateNotNeeded=true componentSpecified=true mActivityType=home
+    compat={420dpi} theme=0x7f140024
+    mLastReportedConfigurations:
+      mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.33 fontWeightAdjustment=0}
+      mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0} s.4 fontWeightAdjustment=0}
+    mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}
+    CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0} s.4 fontWeightAdjustment=0}
+    RequestedOverrideConfiguration={0.0 ?mcc0mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?round ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=home mAlwaysOnTop=undefined mRotation=undefined} ?fontWeightAdjustment}
+    taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=fff2f0f6
+      backgroundColor=ffeeedf6 statusBarColor=0 navigationBarColor=0
+     backgroundColorFloating=fff2f0f6
+    launchFailed=false launchCount=1 lastLaunchTime=-24m25s76ms
+    mHaveState=false mIcicle=null
+    state=PAUSED finishing=false
+    keysPaused=false inHistory=true idle=true
+    occludesParent=true mNoDisplay=false immersive=false launchMode=2
+    mActivityType=home
+    windows=[Window{22b7004 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}]
+    windowType=2
+    mOccludesParent=true
+    overrideOrientation=SCREEN_ORIENTATION_NOSENSOR
+    requestedOrientation=SCREEN_ORIENTATION_NOSENSOR
+    mVisibleRequested=false mVisible=true mClientVisible=true reportedDrawn=true reportedVisible=true
+    mNumInterestingWindows=2 mNumDrawnWindows=2 allDrawn=true)
+    startingData=null firstWindowDrawn=true
+    nowVisible=true lastVisibleTime=-24m23s600ms
+    resizeMode=RESIZE_MODE_RESIZEABLE
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+    supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+    configChanges=0x4ffb
+    neverSandboxDisplayApis=false
+    alwaysSandboxDisplayApis=false
+    isTransparentPolicyRunning=false
+    areBoundsLetterboxed=false
+    isLetterboxRunning=false
+    mRecreateConfigMask=0
+    AppCompatCameraDisplayRotationPolicy:
+      isTreatmentEnabledForDisplay=false
+    AppCompatCameraSimReqOrientationPolicy:
+    CameraStateMonitor:
+      activeCameraConnections= mCameraAppInfoSet={ mCameraAppInfoSet={} }
+      mAvailableRotateAndCropModesForCamera={}
+  mLastStarter:
+    mCurrentUser=0
+    mLastStartReason=startActivityAsUser
+    mLastStartActivityTimeMs=Oct 16, 2026 9:38:06 AM
+    mLastStartActivityResult=0
+    mStartActivity:
+      packageName=com.example.lab2_firebase_connectedmonitoringapp processName=com.example.lab2_firebase_connectedmonitoringapp
+      launchedFromUid=2000 launchedFromPackage=com.android.shell launchedFromFeature=null userId=0
+      app=null
+      Intent { flg=0x10000000 xflg=0x5 cmp=com.example.lab2_firebase_connectedmonitoringapp/.MainActivity (has extras) }
+      rootOfTask=true task=Task{a45d5ea #12 type=standard A=10236:com.example.lab2_firebase_connectedmonitoringapp}
+      taskAffinity=10236:com.example.lab2_firebase_connectedmonitoringapp
+      mActivityComponent=com.example.lab2_firebase_connectedmonitoringapp/.MainActivity
+      baseDir=/data/app/~~eqEoFox9JB_MxpqStK0fyg==/com.example.lab2_firebase_connectedmonitoringapp-Dot7oCml_igoW_7iOhPiJA==/base.apk
+      dataDir=/data/user/0/com.example.lab2_firebase_connectedmonitoringapp
+      stateNotNeeded=false componentSpecified=true mActivityType=standard
+      compat={420dpi} theme=0x7f11026b
+      mLastReportedConfigurations:
+        mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.9 fontWeightAdjustment=0}
+        mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0}
+      mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}
+      CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2 fontWeightAdjustment=0}
+      RequestedOverrideConfiguration={0.0 ?mcc0mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?round ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=standard mAlwaysOnTop=undefined mRotation=undefined} ?fontWeightAdjustment}
+      ResolvedOverrideConfiguration={0.0 ?mcc0mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?round ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undefined mAlwaysOnTop=undefined mRotation=undefined} s.2 ?fontWeightAdjustment}
+      launchFailed=false launchCount=0 lastLaunchTime=0
+      mHaveState=true mIcicle=null
+      state=INITIALIZING finishing=false
+      keysPaused=false inHistory=true idle=false
+      occludesParent=true mNoDisplay=false immersive=false launchMode=0
+      mActivityType=standard
+      windows=[Window{4d4a4a7 u0 Splash Screen com.example.lab2_firebase_connectedmonitoringapp}]
+      windowType=2
+      mOccludesParent=true
+      overrideOrientation=SCREEN_ORIENTATION_UNSPECIFIED
+      requestedOrientation=SCREEN_ORIENTATION_UNSPECIFIED
+      mVisibleRequested=true mVisible=true mClientVisible=true reportedDrawn=false reportedVisible=false
+      startingData=SplashScreenStartingData{40ae395 removeAfterTransaction= 0} firstWindowDrawn=false
+      startingWindow=Window{4d4a4a7 u0 Splash Screen com.example.lab2_firebase_connectedmonitoringapp} startingSurface=com.android.server.wm.StartingSurfaceController$StartingSurface@4387caa startingDisplayed=true startingMoved=false mVisibleSetFromTransferredStartingWindow=false
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+      configChanges=0x407b
+      neverSandboxDisplayApis=false
+      alwaysSandboxDisplayApis=false
+      isTransparentPolicyRunning=false
+      areBoundsLetterboxed=false
+      isLetterboxRunning=false
+      AppCompatCameraDisplayRotationPolicy:
+        isTreatmentEnabledForDisplay=false
+      AppCompatCameraSimReqOrientationPolicy:
+      CameraStateMonitor:
+        activeCameraConnections= mCameraAppInfoSet={ mCameraAppInfoSet={} }
+        mAvailableRotateAndCropModesForCamera={}
+    mIntent=Intent { flg=0x10000000 xflg=0x5 cmp=com.example.lab2_firebase_connectedmonitoringapp/.MainActivity (has extras) }
+    mLaunchMode=LAUNCH_MULTIPLE    mLaunchFlags=0x10000000 mDoResume=true mAddingToTask=true mInTaskFragment=null
+  packageName=com.google.android.apps.nexuslauncher processName=com.google.android.apps.nexuslauncher
+  launchedFromUid=0 launchedFromPackage=null launchedFromFeature=null userId=0
+  app=ProcessRecord{adf953 2145:com.google.android.apps.nexuslauncher/u0a196}
+  Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras) }
+  rootOfTask=true task=Task{c43f38c #2 type=home I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity}
+  taskAffinity=null
+  mActivityComponent=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+  baseDir=/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk
+  dataDir=/data/user/0/com.google.android.apps.nexuslauncher
+  stateNotNeeded=true componentSpecified=true mActivityType=home
+  compat={420dpi} theme=0x7f140024
+  mLastReportedConfigurations:
+    mGlobalConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.33 fontWeightAdjustment=0}
+    mOverrideConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0} s.4 fontWeightAdjustment=0}
+  mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}
+  CurrentConfiguration={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long compactNeeded port finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0} s.4 fontWeightAdjustment=0}
+  RequestedOverrideConfiguration={0.0 ?mcc0mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?round ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=home mAlwaysOnTop=undefined mRotation=undefined} ?fontWeightAdjustment}
+  taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=fff2f0f6
+    backgroundColor=ffeeedf6 statusBarColor=0 navigationBarColor=0
+   backgroundColorFloating=fff2f0f6
+  launchFailed=false launchCount=1 lastLaunchTime=-24m25s142ms
+  mHaveState=false mIcicle=null
+  state=PAUSED finishing=false
+  keysPaused=false inHistory=true idle=true
+  occludesParent=true mNoDisplay=false immersive=false launchMode=2
+  mActivityType=home
+  windows=[Window{22b7004 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}]
+  windowType=2
+  mOccludesParent=true
+  overrideOrientation=SCREEN_ORIENTATION_NOSENSOR
+  requestedOrientation=SCREEN_ORIENTATION_NOSENSOR
+  mVisibleRequested=false mVisible=true mClientVisible=true reportedDrawn=true reportedVisible=true
+  mNumInterestingWindows=2 mNumDrawnWindows=2 allDrawn=true)
+  startingData=null firstWindowDrawn=true
+  nowVisible=true lastVisibleTime=-24m23s666ms
+  resizeMode=RESIZE_MODE_RESIZEABLE
+  mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+  configChanges=0x4ffb
+  neverSandboxDisplayApis=false
+  alwaysSandboxDisplayApis=false
+  isTransparentPolicyRunning=false
+  areBoundsLetterboxed=false
+  isLetterboxRunning=false
+  mRecreateConfigMask=0
+  AppCompatCameraDisplayRotationPolicy:
+    isTreatmentEnabledForDisplay=false
+  AppCompatCameraSimReqOrientationPolicy:
+  CameraStateMonitor:
+    activeCameraConnections= mCameraAppInfoSet={ mCameraAppInfoSet={} }
+    mAvailableRotateAndCropModesForCamera={}
+
+  ResumedActivity: ActivityRecord{228400780 u0 com.example.lab2_firebase_connectedmonitoringapp/.MainActivity t12}
+  LockTaskController:
+    mLockTaskModeState=NONE
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+
+  KeyguardController:
+    mKeyguardShowing=false
+    mAodShowing=false
+    mKeyguardGoingAway=false
+   KeyguardShowing=false AodShowing=false KeyguardGoingAway=false DismissalRequested=false  Occluded=false DismissingKeyguardActivity=null TurnScreenOnActivity=null at display=0
+    mDismissalRequested=false
+
+-------------------------------------------------------------------------------
+

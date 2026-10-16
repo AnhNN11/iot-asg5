@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F2F6F5" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="ENVIRONMENT / LIVE" android:textColor="#12695F" android:textSize="12sp" android:letterSpacing="0.15" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Room monitor" android:textColor="#172E2B" android:textSize="32sp" android:textStyle="bold" android:layout_marginTop="8dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Exercise 3 · Firebase Realtime Database" android:textColor="#536762" android:textSize="14sp" android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/connection" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Connecting…" android:textColor="#12695F" android:layout_marginTop="20dp" android:padding="12dp" android:background="#E0EEEA" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TEMPERATURE" android:textSize="12sp" android:textColor="#536762" android:letterSpacing="0.1" />
+                <TextView android:id="@+id/temperature" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="— °C" android:textSize="48sp" android:textColor="#172E2B" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="RELATIVE HUMIDITY" android:textSize="12sp" android:textColor="#536762" android:letterSpacing="0.1" android:layout_marginTop="20dp" />
+                <TextView android:id="@+id/humidity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="— %" android:textSize="36sp" android:textColor="#12695F" android:textStyle="bold" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+                <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/mode" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="Alert mode" android:textSize="18sp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Notify when temperature exceeds threshold" android:textColor="#536762" android:textSize="12sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TEMPERATURE THRESHOLD" android:textSize="12sp" android:textColor="#536762" android:layout_marginTop="20dp" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_marginTop="8dp">
+                    <com.google.android.material.button.MaterialButton android:id="@+id/decrease" android:layout_width="64dp" android:layout_height="56dp" android:text="−" android:textSize="24sp" android:contentDescription="Decrease threshold" />
+                    <TextView android:id="@+id/threshold" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="center" android:text="— °C" android:textColor="#172E2B" android:textSize="26sp" android:textStyle="bold" />
+                    <com.google.android.material.button.MaterialButton android:id="@+id/increase" android:layout_width="64dp" android:layout_height="56dp" android:text="+" android:textSize="24sp" android:contentDescription="Increase threshold" />
+                </LinearLayout>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Step 1 °C · Range −50 to 100 °C" android:textSize="12sp" android:textColor="#536762" android:gravity="center" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView android:id="@+id/alert" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Waiting for valid sensor data" android:padding="12dp" android:textStyle="bold" android:layout_marginTop="16dp" android:background="#E0EEEA" />
+        <TextView android:id="@+id/timestamp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Timestamp: not supplied" android:textColor="#536762" android:textSize="12sp" android:layout_marginTop="12dp" />
+        <TextView android:id="@+id/source" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SOURCE  Config / Latest" android:textColor="#536762" android:textSize="11sp" android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
